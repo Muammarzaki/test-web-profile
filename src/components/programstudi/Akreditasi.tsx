@@ -1,6 +1,6 @@
 import React from "react";
-import { FileText, Award } from "lucide-react";
-import { ProgramStudi } from "../../utils";
+import {Award, FileText} from "lucide-react";
+import {ProgramStudi} from "../../utils";
 
 export const Akreditasi = ({ data }: ProgramStudi) => {
   return (

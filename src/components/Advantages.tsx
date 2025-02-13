@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, GraduationCap, Handshake, Award, Medal, User } from 'lucide-react';
+import {Award, GraduationCap, Handshake, Medal, User, Users} from 'lucide-react';
 
 const advantages = [
   {

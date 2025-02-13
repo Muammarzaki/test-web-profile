@@ -1,5 +1,5 @@
 import React from "react";
-import { ProgramStudi } from "../../utils";
+import {ProgramStudi} from "../../utils";
 
 export const Personil = ({ data }: ProgramStudi) => {
   return (
