@@ -1,3 +1,12 @@
+export interface ProgramData {
+  "teknologi-informasi": ProgramStudi;
+  "teknik-fisika": ProgramStudi;
+  "teknik-lingkungan": ProgramStudi;
+  arsitektur: ProgramStudi;
+  kimia: ProgramStudi;
+  bilogi: ProgramStudi;
+}
+
 export interface ProgramStudi {
   title: string;
   description: string;
@@ -61,5 +70,6 @@ interface TenagaPengajarSection {
   content: {
     slug: string;
     nama: string;
+    img: string;
   }[];
 }

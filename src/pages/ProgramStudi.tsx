@@ -11,9 +11,12 @@ import {
 import ProgramHero from "../components/ProgramHero";
 import VisiMisiComponent from "../components/programstudi/VisiMisiComponent";
 import Akreditasi from "../components/programstudi/Akreditasi";
+import Personil from "../components/programstudi/Personil";
+import TenagaPengajar from "../components/programstudi/TenagaPengajar";
+import { ProgramData } from "../utils";
 
 // Program data
-const programData = {
+const programData: ProgramData = {
   "teknologi-informasi": {
     title: "Teknologi Informasi",
     description:
@@ -117,26 +120,32 @@ const programData = {
           {
             slug: "khairan-dosen-pengajar",
             nama: "Khairan AR, M.Kom",
+            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
           },
           {
             slug: "khairan-dosen-pengajar",
             nama: "Khairan AR, M.Kom",
+            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
           },
           {
             slug: "khairan-dosen-pengajar",
             nama: "Khairan AR, M.Kom",
+            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
           },
           {
             slug: "khairan-dosen-pengajar",
             nama: "Khairan AR, M.Kom",
+            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
           },
           {
             slug: "khairan-dosen-pengajar",
             nama: "Khairan AR, M.Kom",
+            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
           },
           {
             slug: "khairan-dosen-pengajar",
             nama: "Khairan AR, M.Kom",
+            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
           },
         ],
       },
@@ -338,6 +347,8 @@ const ProgramStudi = () => {
                     <Akreditasi data={program.sections[activeSection]} />
                   ) : activeSection === "personil" ? (
                     <Personil data={program.sections[activeSection]} />
+                  ) : activeSection == "tenaga-pengajar" ? (
+                    <TenagaPengajar data={program.sections[activeSection]} />
                   ) : (
                     program.sections[activeSection].content
                   )}
