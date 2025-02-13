@@ -1,5 +1,6 @@
+import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
-import {User} from 'lucide-react';
+import { User } from 'lucide-react';
 
 const Dekanat = () => {
   return (
