@@ -1,6 +1,6 @@
-import React, {useEffect, useState} from 'react';
-import {Link} from 'react-router-dom';
-import {GraduationCap, Menu} from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Menu, GraduationCap } from 'lucide-react';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

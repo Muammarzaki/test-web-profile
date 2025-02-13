@@ -1,6 +1,6 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
-import {Target} from 'lucide-react';
+import { Target } from 'lucide-react';
 
 const VisiMisi = () => {
   const missions = [
