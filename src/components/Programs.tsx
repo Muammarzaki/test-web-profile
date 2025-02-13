@@ -1,5 +1,4 @@
-import React from 'react';
-import { Monitor, Atom, Leaf, Building2, FlaskRound, Binary } from 'lucide-react';
+import {Atom, Binary, Building2, FlaskRound, Leaf, Monitor} from 'lucide-react';
 
 const programs = [
   {

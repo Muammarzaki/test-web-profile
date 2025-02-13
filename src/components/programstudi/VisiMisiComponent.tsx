@@ -1,5 +1,5 @@
 import React from "react";
-import { ProgramStudi } from "../../utils/index";
+import {ProgramStudi} from "../../utils/index";
 
 export const VisiMisiComponent = ({ data }: ProgramStudi) => {
   return (

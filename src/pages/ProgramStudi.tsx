@@ -1,13 +1,6 @@
-import React, { useState } from "react";
-import { useParams, useLocation } from "react-router-dom";
-import {
-  BookOpen,
-  Building2,
-  GraduationCap,
-  Award,
-  Users2,
-  Users,
-} from "lucide-react";
+import React, {useState} from "react";
+import {useLocation, useParams} from "react-router-dom";
+import {Award, BookOpen, Building2, GraduationCap, Users, Users2,} from "lucide-react";
 import ProgramHero from "../components/ProgramHero";
 import VisiMisiComponent from "../components/programstudi/VisiMisiComponent";
 import Akreditasi from "../components/programstudi/Akreditasi";
