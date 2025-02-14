@@ -10,7 +10,7 @@ export interface ProgramData {
       "tenaga-pengajar": TenagaPengajarSection;
       kurikulum: KurikulumSection;
       "fasilitas-prodi": Section;
-      "layanan-prodi": Section;
+      "layanan-prodi": LayananProdiSection;
       "prospek-alumni": Section;
     };
   };
@@ -95,6 +95,25 @@ interface KurikulumSection {
       kategori: string;
     }[];
   }[];
+}
+
+interface LayananProdiSection {
+  title: string;
+  content: {
+    nama: string;
+    jabatan: string;
+    foto: string;
+    kontak: {
+      telepon: string;
+      email: string;
+      website: string;
+    };
+    jamKerja: {
+      hari: string;
+      pagi: string;
+      siang: string;
+    };
+  };
 }
 
 export type ProgramStudi = {
