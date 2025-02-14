@@ -4,7 +4,7 @@ import { ProgramStudi } from "../../utils";
 
 export const Akreditasi = ({ data }: ProgramStudi) => {
   return (
-    <div className="p-4 flex flex-row border border-slate-500 rounded-xl justify-between md:items-center">
+    <div className="p-4 flex flex-row justify-between md:items-center bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100 hover:border-teal-300">
       <div className="flex flex-col gap-4">
         <h1 className="text-4xl font-bold">{data.content.akreditasi}</h1>
         <div className="flex flex-col gap-2">
