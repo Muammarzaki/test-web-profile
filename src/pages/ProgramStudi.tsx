@@ -13,6 +13,8 @@ import VisiMisiComponent from "../components/programstudi/VisiMisiComponent";
 import Akreditasi from "../components/programstudi/Akreditasi";
 import Personil from "../components/programstudi/Personil";
 import TenagaPengajar from "../components/programstudi/TenagaPengajar";
+import Kurikulum from "../components/programstudi/Kurikulum";
+import DosenDetail from "../components/programstudi/DosenDetail";
 import { ProgramData } from "../utils";
 
 // Program data
@@ -30,7 +32,7 @@ const programData: ProgramData = {
       "visi-dan-misi": {
         title: "Visi dan Misi",
         content: {
-          visi: "“Menjadi Fakultas Sains dan Teknologi yang responsif dan profesional dalam pengembangan keilmuan Sains dan Teknologi Terintegrasi dengan Nilai Keislaman, Kebangsaan dan Keuniversalan untuk Membangun Masyarakat yang Moderat dan Unggul”",
+          visi: '"Menjadi Fakultas Sains dan Teknologi yang responsif dan profesional dalam pengembangan keilmuan Sains dan Teknologi Terintegrasi dengan Nilai Keislaman, Kebangsaan dan Keuniversalan untuk Membangun Masyarakat yang Moderat dan Unggul"',
           misi: [
             {
               judul: "Pendidikan Inovatif dan Berwawasan Keislaman",
@@ -118,146 +120,188 @@ const programData: ProgramData = {
         title: "Tenaga Pengajar",
         content: [
           {
-            slug: "khairan-dosen-pengajar",
+            slug: "khairan-ar",
             nama: "Khairan AR, M.Kom",
             img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
-          },
-          {
-            slug: "khairan-dosen-pengajar",
-            nama: "Khairan AR, M.Kom",
-            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
-          },
-          {
-            slug: "khairan-dosen-pengajar",
-            nama: "Khairan AR, M.Kom",
-            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
-          },
-          {
-            slug: "khairan-dosen-pengajar",
-            nama: "Khairan AR, M.Kom",
-            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
-          },
-          {
-            slug: "khairan-dosen-pengajar",
-            nama: "Khairan AR, M.Kom",
-            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
-          },
-          {
-            slug: "khairan-dosen-pengajar",
-            nama: "Khairan AR, M.Kom",
-            img: "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
+            nip: "197108102006021",
+            jabatan: "Lektor",
+            pendidikan: [
+              "S2 Ilmu Komputer, Universitas Indonesia (2010)",
+              "S1 Teknik Informatika, Institut Teknologi Bandung (2005)",
+            ],
+            bidangKeahlian: [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Computer Vision",
+              "Data Science",
+            ],
+            penelitian: [
+              {
+                judul: "Implementasi Deep Learning untuk Deteksi Objek pada Citra Digital",
+                tahun: "2023",
+              },
+              {
+                judul: "Pengembangan Sistem Rekomendasi Menggunakan Collaborative Filtering",
+                tahun: "2022",
+              },
+            ],
+            publikasi: [
+              {
+                judul: "Deep Learning for Object Detection: A Comprehensive Review",
+                tahun: "2023",
+                jurnal: "International Journal of Computer Science",
+              },
+              {
+                judul: "Machine Learning Applications in Education: Current Trends and Future Prospects",
+                tahun: "2022",
+                jurnal: "Journal of Educational Technology",
+              },
+            ],
+            pengabdian: [
+              {
+                judul: "Pelatihan Machine Learning untuk Guru SMA",
+                tahun: "2023",
+              },
+              {
+                judul: "Workshop Artificial Intelligence untuk UMKM",
+                tahun: "2022",
+              },
+            ],
           },
         ],
       },
       kurikulum: {
         title: "Kurikulum",
-        content:
-          "Program studi ini juga aktif menjamin kerja sama dengan berbagai pihak, termasuk industri, pemerintah, perguruan-perguruan lain, dan lembaga pendidikan lainnya. Kurikulum, komitmen, dan prasarana yang mahasiswa. Dengan komitmen terhadap kualitas pendidikan, Program Studi Teknologi Informasi terus berupaya mencatak lulusan yang kompeten, profesional, dan berdaya saing tinggi di era digital.",
-      },
-      "fasilitas-prodi": {
-        title: "Fasilitas Prodi",
-        content: "Informasi fasilitas program studi...",
-      },
-      "layanan-prodi": {
-        title: "Lulusan Prodi",
-        content: "Informasi lulusan program studi...",
-      },
-      "prospek-alumni": {
-        title: "Prospek Alumni",
-        content: "Informasi prospek alumni...",
-      },
-    },
-  },
-  "teknik-fisika": {
-    title: "Teknologi Informasi",
-    description:
-      "Program Studi Teknologi Informasi di Fakultas Sains dan Teknologi UIN Ar-Raniry Banda Aceh didirikan pada awal tahun 2018. Kehadiran program studi ini bertujuan untuk menjawab kebutuhan tenaga ahli yang ada di bidang teknologi informasi.",
-    sections: {
-      sejarah: {
-        title: "Sejarah",
-        content:
-          "Program Studi Teknologi Informasi di Fakultas Sains dan Teknologi UIN Ar-Raniry Banda Aceh didirikan pada awal tahun 2018. Kehadiran program studi ini bertujuan untuk menjawab kebutuhan tenaga ahli yang ada di bidang teknologi informasi. Melalui pola pembelajaran modern dengan riset dan Islam terpadu ini diharapkan dapat memberikan kontribusi nyata bagi kemajuan teknologi informasi di Aceh khususnya dan Indonesia pada umumnya.",
-      },
-      "visi-dan-misi": {
-        title: "Visi dan Misi",
-        content: {
-          visi: "“Menjadi Fakultas Sains dan Teknologi yang responsif dan profesional dalam pengembangan keilmuan Sains dan Teknologi Terintegrasi dengan Nilai Keislaman, Kebangsaan dan Keuniversalan untuk Membangun Masyarakat yang Moderat dan Unggul”",
-          misi: [
-            {
-              judul:
-                "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-              isi: "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-            },
-            {
-              judul:
-                "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-              isi: "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-            },
-            {
-              judul:
-                "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-              isi: "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-            },
-            {
-              judul:
-                "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-              isi: "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-            },
-            {
-              judul:
-                "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-              isi: "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman.",
-            },
-          ],
-          tujuan: [
-            {
-              judul: "Lulusan Berkompeten sebagai Pendidik Profesional",
-              isi: "Menghasilkan lulusan yang berkompeten sebagai pendidik dan mampu membelajarkan teknologi informasi secara profesional, inovatif, dan berwawasan keislaman.",
-            },
-            {
-              judul: "Lulusan Berkompeten sebagai Pendidik Profesional",
-              isi: "Menghasilkan lulusan yang berkompeten sebagai pendidik dan mampu membelajarkan teknologi informasi secara profesional, inovatif, dan berwawasan keislaman.",
-            },
-            {
-              judul: "Lulusan Berkompeten sebagai Pendidik Profesional",
-              isi: "Menghasilkan lulusan yang berkompeten sebagai pendidik dan mampu membelajarkan teknologi informasi secara profesional, inovatif, dan berwawasan keislaman.",
-            },
-            {
-              judul: "Lulusan Berkompeten sebagai Pendidik Profesional",
-              isi: "Menghasilkan lulusan yang berkompeten sebagai pendidik dan mampu membelajarkan teknologi informasi secara profesional, inovatif, dan berwawasan keislaman.",
-            },
-            {
-              judul: "Lulusan Berkompeten sebagai Pendidik Profesional",
-              isi: "Menghasilkan lulusan yang berkompeten sebagai pendidik dan mampu membelajarkan teknologi informasi secara profesional, inovatif, dan berwawasan keislaman.",
-            },
-          ],
-        },
-      },
-
-      personil: {
-        title: "Personil",
-        content: "Daftar personil program studi...",
-      },
-      akreditasi: {
-        title: "Akreditasi Prodi",
-        content: {
-          akreditasi: "Unggul",
-          suratAkreditasi: {
-            isi: "No. SK Akreditasi : No. 644/SK/LAMDIK/Ak/S/VI/2023",
-            link: "https://google.com",
+        content: [
+          {
+            semester: 1,
+            mataKuliah: [
+              {
+                kode: "TI101",
+                nama: "Pengantar Teknologi Informasi",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI102",
+                nama: "Algoritma dan Pemrograman Dasar",
+                sks: 4,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI103",
+                nama: "Matematika Diskrit",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI104",
+                nama: "Bahasa Inggris I",
+                sks: 2,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI105",
+                nama: "Pendidikan Agama Islam",
+                sks: 2,
+                kategori: "Wajib"
+              }
+            ]
           },
-          expiredSurat: "15 Oktober 2028",
-        },
-      },
-      "tenaga-pengajar": {
-        title: "Tenaga Pengajar",
-        content:
-          "Dalam perjalanannya, program studi ini telah berkembang dengan baik dan mempunyai akreditasi Baik. Saat ini Program Studi Teknologi Informasi memiliki 11 dosen tetap dengan kualifikasi 4 doktor dan 7 magister. Para dosen ini memiliki berbagai keahlian di bidang teknologi informasi, seperti pengembangan perangkat lunak, jaringan komputer, keamanan siber, data sains, dan kecerdasan buatan.",
-      },
-      kurikulum: {
-        title: "Kurikulum",
-        content:
-          "Program studi ini juga aktif menjamin kerja sama dengan berbagai pihak, termasuk industri, pemerintah, perguruan-perguruan lain, dan lembaga pendidikan lainnya. Kurikulum, komitmen, dan prasarana yang mahasiswa. Dengan komitmen terhadap kualitas pendidikan, Program Studi Teknologi Informasi terus berupaya mencatak lulusan yang kompeten, profesional, dan berdaya saing tinggi di era digital.",
+          {
+            semester: 2,
+            mataKuliah: [
+              {
+                kode: "TI201",
+                nama: "Struktur Data",
+                sks: 4,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI202",
+                nama: "Basis Data",
+                sks: 4,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI203",
+                nama: "Sistem Digital",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI204",
+                nama: "Kalkulus",
+                sks: 3,
+                kategori: "Wajib"
+              }
+            ]
+          },
+          {
+            semester: 3,
+            mataKuliah: [
+              {
+                kode: "TI301",
+                nama: "Pemrograman Web",
+                sks: 4,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI302",
+                nama: "Jaringan Komputer",
+                sks: 4,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI303",
+                nama: "Sistem Operasi",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI304",
+                nama: "Statistika",
+                sks: 3,
+                kategori: "Wajib"
+              }
+            ]
+          },
+          {
+            semester: 4,
+            mataKuliah: [
+              {
+                kode: "TI401",
+                nama: "Pemrograman Berorientasi Objek",
+                sks: 4,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI402",
+                nama: "Analisis dan Desain Sistem",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI403",
+                nama: "Kecerdasan Buatan",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI404",
+                nama: "Keamanan Sistem",
+                sks: 3,
+                kategori: "Wajib"
+              },
+              {
+                kode: "TI405",
+                nama: "Mobile Programming",
+                sks: 3,
+                kategori: "Pilihan"
+              }
+            ]
+          }
+        ]
       },
       "fasilitas-prodi": {
         title: "Fasilitas Prodi",
@@ -289,7 +333,7 @@ const menuItems = [
 ];
 
 const ProgramStudi = () => {
-  const { programId = "teknologi-informasi" } = useParams();
+  const { programId = "teknologi-informasi", tenagaId } = useParams();
   const location = useLocation();
   const [activeSection, setActiveSection] = useState(
     location.hash ? location.hash.slice(1) : "sejarah"
@@ -298,8 +342,17 @@ const ProgramStudi = () => {
   const program = programData[programId];
   if (!program) return <div>Program tidak ditemukan</div>;
 
+  // If we have a tenagaId, show the lecturer detail view
+  if (tenagaId) {
+    const lecturer = program.sections["tenaga-pengajar"].content.find(
+      (d) => d.slug === tenagaId
+    );
+    if (!lecturer) return <div>Dosen tidak ditemukan</div>;
+    return <DosenDetail data={lecturer} />;
+  }
+
   return (
-    <main className="flex-grow ">
+    <main className="flex-grow">
       <ProgramHero programId={programId} title={program.title} />
 
       <div className="container px-6 py-8">
@@ -340,19 +393,21 @@ const ProgramStudi = () => {
                 {program.sections[activeSection].title}
               </h3>
               <div className="prose max-w-none">
-                <p className="text-gray-600 leading-relaxed">
-                  {activeSection === "visi-dan-misi" ? (
-                    <VisiMisiComponent data={program.sections[activeSection]} />
-                  ) : activeSection === "akreditasi" ? (
-                    <Akreditasi data={program.sections[activeSection]} />
-                  ) : activeSection === "personil" ? (
-                    <Personil data={program.sections[activeSection]} />
-                  ) : activeSection == "tenaga-pengajar" ? (
-                    <TenagaPengajar data={program.sections[activeSection]} />
-                  ) : (
-                    program.sections[activeSection].content
-                  )}
-                </p>
+                {activeSection === "visi-dan-misi" ? (
+                  <VisiMisiComponent data={program.sections[activeSection]} />
+                ) : activeSection === "akreditasi" ? (
+                  <Akreditasi data={program.sections[activeSection]} />
+                ) : activeSection === "personil" ? (
+                  <Personil data={program.sections[activeSection]} />
+                ) : activeSection === "tenaga-pengajar" ? (
+                  <TenagaPengajar data={program.sections[activeSection]} />
+                ) : activeSection === "kurikulum" ? (
+                  <Kurikulum data={program.sections[activeSection]} />
+                ) : (
+                  <p className="text-gray-600 leading-relaxed">
+                    {program.sections[activeSection].content}
+                  </p>
+                )}
               </div>
             </div>
           </div>
