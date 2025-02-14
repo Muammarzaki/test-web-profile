@@ -1,25 +1,18 @@
 export interface ProgramData {
-  "teknologi-informasi": ProgramStudi;
-  "teknik-fisika": ProgramStudi;
-  "teknik-lingkungan": ProgramStudi;
-  arsitektur: ProgramStudi;
-  kimia: ProgramStudi;
-  bilogi: ProgramStudi;
-}
-
-export interface ProgramStudi {
-  title: string;
-  description: string;
-  sections: {
-    sejarah: Section;
-    "visi-dan-misi": VisiMisiSection;
-    personil: PersonilSection;
-    akreditasi: AkreditasiSection;
-    "tenaga-pengajar": TenagaPengajarSection;
-    kurikulum: Section;
-    "fasilitas-prodi": Section;
-    "layanan-prodi": Section;
-    "prospek-alumni": Section;
+  [key: string]: {
+    title: string;
+    description: string;
+    sections: {
+      sejarah: Section;
+      "visi-dan-misi": VisiMisiSection;
+      personil: PersonilSection;
+      akreditasi: AkreditasiSection;
+      "tenaga-pengajar": TenagaPengajarSection;
+      kurikulum: KurikulumSection;
+      "fasilitas-prodi": Section;
+      "layanan-prodi": Section;
+      "prospek-alumni": Section;
+    };
   };
 }
 
@@ -71,5 +64,39 @@ interface TenagaPengajarSection {
     slug: string;
     nama: string;
     img: string;
+    nip?: string;
+    jabatan?: string;
+    pendidikan?: string[];
+    bidangKeahlian?: string[];
+    penelitian?: {
+      judul: string;
+      tahun: string;
+    }[];
+    pengabdian?: {
+      judul: string;
+      tahun: string;
+    }[];
+    publikasi?: {
+      judul: string;
+      tahun: string;
+      jurnal: string;
+    }[];
   }[];
 }
+
+interface KurikulumSection {
+  title: string;
+  content: {
+    semester: number;
+    mataKuliah: {
+      kode: string;
+      nama: string;
+      sks: number;
+      kategori: string;
+    }[];
+  }[];
+}
+
+export type ProgramStudi = {
+  data: any;
+};
