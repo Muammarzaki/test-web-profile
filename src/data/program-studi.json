@@ -1,0 +1,714 @@
+{
+  "teknologi-informasi": {
+    "title": "Teknologi Informasi",
+    "description": "Program Studi Teknologi Informasi di Fakultas Sains dan Teknologi UIN Ar-Raniry Banda Aceh didirikan pada awal tahun 2018. Kehadiran program studi ini bertujuan untuk menjawab kebutuhan tenaga ahli yang ada di bidang teknologi informasi.",
+    "sections": {
+      "sejarah": {
+        "title": "Sejarah",
+        "content": "Program Studi Teknologi Informasi di Fakultas Sains dan Teknologi UIN Ar-Raniry Banda Aceh didirikan pada awal tahun 2018. Kehadiran program studi ini bertujuan untuk menjawab kebutuhan tenaga ahli yang ada di bidang teknologi informasi. Melalui pola pembelajaran modern dengan riset dan Islam terpadu ini diharapkan dapat memberikan kontribusi nyata bagi kemajuan teknologi informasi di Aceh khususnya dan Indonesia pada umumnya."
+      },
+      "visi-dan-misi": {
+        "title": "Visi dan Misi",
+        "content": {
+          "visi": "\"Menjadi Fakultas Sains dan Teknologi yang responsif dan profesional dalam pengembangan keilmuan Sains dan Teknologi Terintegrasi dengan Nilai Keislaman, Kebangsaan dan Keuniversalan untuk Membangun Masyarakat yang Moderat dan Unggul\"",
+          "misi": [
+            {
+              "judul": "Pendidikan Inovatif dan Berwawasan Keislaman",
+              "isi": "Melaksanakan pendidikan dan pembelajaran teknologi informasi yang inovatif, profesional, dan berwawasan keislaman."
+            },
+            {
+              "judul": "Pengembangan Riset Teknologi Informasi",
+              "isi": "Mengembangkan riset di bidang pendidikan teknologi informasi secara inovatif sebagai basis dalam peningkatan mutu pembelajaran."
+            },
+            {
+              "judul": "Pengabdian Masyarakat di Bidang Teknologi Informasi",
+              "isi": "Melaksanakan pengabdian kepada masyarakat di bidang pendidikan dan teknologi informasi."
+            },
+            {
+              "judul": "Kerja Sama dan Kemitraan Strategis",
+              "isi": "Menjalin kerja sama dan kemitraan dengan berbagai pihak dalam menyiapkan dan meningkatkan kualitas lulusan."
+            }
+          ],
+          "tujuan": [
+            {
+              "judul": "Lulusan Berkompeten sebagai Pendidik Profesional",
+              "isi": "Menghasilkan lulusan yang berkompeten sebagai pendidik dan mampu membelajarkan teknologi informasi secara profesional, inovatif, dan berwawasan keislaman."
+            },
+            {
+              "judul": "Keahlian di Bidang Rekayasa Perangkat Lunak, Multimedia, dan Jaringan",
+              "isi": "Menghasilkan lulusan yang memiliki kemampuan di bidang Rekayasa Perangkat Lunak, Multimedia, dan Jaringan."
+            },
+            {
+              "judul": "Pengembangan Media dan Model Pembelajaran",
+              "isi": "Mengembangkan media atau model pembelajaran teknologi informasi untuk meningkatkan kualitas lulusan."
+            },
+            {
+              "judul": "Penelitian Inovatif dalam Pendidikan Teknologi Informasi",
+              "isi": "Menghasilkan penelitian yang inovatif di bidang pendidikan teknologi informasi."
+            },
+            {
+              "judul": "Peningkatan Mutu Pembelajaran Berbasis Riset",
+              "isi": "Meningkatkan mutu pembelajaran berdasarkan riset di bidang pendidikan teknologi informasi."
+            },
+            {
+              "judul": "Pemahaman Masyarakat di Bidang Teknologi Informasi",
+              "isi": "Meningkatkan pemahaman masyarakat pada bidang pendidikan dan teknologi informasi."
+            },
+            {
+              "judul": "Penerapan Teknologi Informasi untuk Kearifan Lokal",
+              "isi": "Menghasilkan lulusan yang mampu menerapkan teknologi informasi untuk kepentingan masyarakat sesuai dengan kearifan lokal."
+            },
+            {
+              "judul": "Kerja Sama dan Kemitraan Strategis",
+              "isi": "Menjalin kerja sama dan kemitraan dengan berbagai pihak dalam penerapan dan pengembangan pendidikan teknologi informasi."
+            }
+          ]
+        }
+      },
+      "personil": {
+        "title": "Personil",
+        "content": [
+          {
+            "nama": "Malahayati, M.T",
+            "nip": "196303051995031",
+            "pangkat": "Ketua Program Studi",
+            "img": "https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg"
+          },
+          {
+            "nama": "Khairan AR, M.Kom",
+            "nip": "197108102006021",
+            "pangkat": "Sekretaris Program Studi",
+            "img": "https://www.georgetown.edu/wp-content/uploads/2022/02/Jkramerheadshot-scaled-e1645036825432-1050x1050-c-default.jpg"
+          }
+        ]
+      },
+      "akreditasi": {
+        "title": "Akreditasi Prodi",
+        "content": {
+          "akreditasi": "Unggul",
+          "suratAkreditasi": {
+            "isi": "No. SK Akreditasi : No. 644/SK/LAMDIK/Ak/S/VI/2023",
+            "link": "https://google.com"
+          },
+          "expiredSurat": "15 Oktober 2028"
+        }
+      },
+      "tenaga-pengajar": {
+        "title": "Tenaga Pengajar",
+        "content": [
+          {
+            "slug": "khairan-ar",
+            "nama": "Khairan AR, M.Kom",
+            "img": "https://www.kevinashleyphotography.com/wp-content/uploads/2015/11/person(pp_w480_h610).jpg",
+            "nip": "197108102006021",
+            "jabatan": "Lektor",
+            "pendidikan": [
+              "S2 Ilmu Komputer, Universitas Indonesia (2010)",
+              "S1 Teknik Informatika, Institut Teknologi Bandung (2005)"
+            ],
+            "bidangKeahlian": [
+              "Artificial Intelligence",
+              "Machine Learning",
+              "Computer Vision",
+              "Data Science"
+            ],
+            "penelitian": [
+              {
+                "judul": "Implementasi Deep Learning untuk Deteksi Objek pada Citra Digital",
+                "tahun": "2023"
+              },
+              {
+                "judul": "Pengembangan Sistem Rekomendasi Menggunakan Collaborative Filtering",
+                "tahun": "2022"
+              }
+            ],
+            "publikasi": [
+              {
+                "judul": "Deep Learning for Object Detection: A Comprehensive Review",
+                "tahun": "2023",
+                "jurnal": "International Journal of Computer Science"
+              },
+              {
+                "judul": "Machine Learning Applications in Education: Current Trends and Future Prospects",
+                "tahun": "2022",
+                "jurnal": "Journal of Educational Technology"
+              }
+            ],
+            "pengabdian": [
+              {
+                "judul": "Pelatihan Machine Learning untuk Guru SMA",
+                "tahun": "2023"
+              },
+              {
+                "judul": "Workshop Artificial Intelligence untuk UMKM",
+                "tahun": "2022"
+              }
+            ]
+          }
+        ]
+      },
+      "kurikulum": {
+        "title": "Kurikulum",
+        "content": [
+          {
+            "semester": 1,
+            "mataKuliah": [
+              {
+                "kode": "TI101",
+                "nama": "Pengantar Teknologi Informasi",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI102",
+                "nama": "Algoritma dan Pemrograman Dasar",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI103",
+                "nama": "Matematika Diskrit",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI104",
+                "nama": "Bahasa Inggris I",
+                "sks": 2,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI105",
+                "nama": "Pendidikan Agama Islam",
+                "sks": 2,
+                "kategori": "Wajib"
+              }
+            ]
+          },
+          {
+            "semester": 2,
+            "mataKuliah": [
+              {
+                "kode": "TI201",
+                "nama": "Struktur Data",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI202",
+                "nama": "Basis Data",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI203",
+                "nama": "Sistem Digital",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI204",
+                "nama": "Kalkulus",
+                "sks": 3,
+                "kategori": "Wajib"
+              }
+            ]
+          },
+          {
+            "semester": 3,
+            "mataKuliah": [
+              {
+                "kode": "TI301",
+                "nama": "Pemrograman Web",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI302",
+                "nama": "Jaringan Komputer",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI303",
+                "nama": "Sistem Operasi",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI304",
+                "nama": "Statistika",
+                "sks": 3,
+                "kategori": "Wajib"
+              }
+            ]
+          },
+          {
+            "semester": 4,
+            "mataKuliah": [
+              {
+                "kode": "TI401",
+                "nama": "Pemrograman Berorientasi Objek",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI402",
+                "nama": "Analisis dan Desain Sistem",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI403",
+                "nama": "Kecerdasan Buatan",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI404",
+                "nama": "Keamanan Sistem",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TI405",
+                "nama": "Mobile Programming",
+                "sks": 3,
+                "kategori": "Pilihan"
+              }
+            ]
+          }
+        ]
+      },
+      "fasilitas-prodi": {
+        "title": "Fasilitas Prodi",
+        "content": "Informasi fasilitas program studi..."
+      },
+      "layanan-prodi": {
+        "title": "Layanan Prodi",
+        "content": {
+          "nama": "Cut Ida Rahmatiana, S.Si",
+          "jabatan": "Staf Administrasi Prodi",
+          "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+          "kontak": {
+            "telepon": "+62 xxx-xxxx-xxxx",
+            "email": "example@email.com",
+            "website": "www.example.com"
+          },
+          "jamKerja": {
+            "hari": "Senin - Jumat",
+            "pagi": "08.00 - 12.30",
+            "siang": "14.00 - 16.30"
+          }
+        }
+      },
+      "prospek-alumni": {
+        "title": "Prospek Alumni",
+        "content": "Informasi prospek alumni..."
+      }
+    }
+  },
+  "teknik-fisika": {
+    "title": "Teknik Fisika",
+    "description": "Program Studi Teknik Fisika di Fakultas Sains dan Teknologi UIN Ar-Raniry Banda Aceh fokus pada pengembangan teknologi berbasis ilmu fisika terapan.",
+    "sections": {
+      "sejarah": {
+        "title": "Sejarah",
+        "content": "Program Studi Teknik Fisika didirikan untuk memenuhi kebutuhan akan tenaga ahli dalam bidang teknologi berbasis fisika terapan. Program studi ini menggabungkan dasar-dasar ilmu fisika dengan aplikasi teknologi modern."
+      },
+      "visi-dan-misi": {
+        "title": "Visi dan Misi",
+        "content": {
+          "visi": "\"Menjadi Program Studi Teknik Fisika yang unggul dalam pengembangan teknologi berbasis fisika terapan dengan integrasi nilai-nilai keislaman\"",
+          "misi": [
+            {
+              "judul": "Pendidikan Berkualitas",
+              "isi": "Menyelenggarakan pendidikan teknik fisika yang berkualitas dan terintegrasi dengan nilai-nilai keislaman."
+            },
+            {
+              "judul": "Penelitian Inovatif",
+              "isi": "Melakukan penelitian inovatif dalam bidang teknik fisika untuk pengembangan teknologi."
+            }
+          ],
+          "tujuan": [
+            {
+              "judul": "Pengembangan Kompetensi",
+              "isi": "Menghasilkan lulusan yang kompeten dalam bidang teknik fisika."
+            },
+            {
+              "judul": "Inovasi Teknologi",
+              "isi": "Menghasilkan inovasi teknologi berbasis fisika terapan."
+            }
+          ]
+        }
+      },
+      "personil": {
+        "title": "Personil",
+        "content": [
+          {
+            "nama": "Dr. Ahmad Syahputra, M.T",
+            "nip": "197503152000031002",
+            "pangkat": "Ketua Program Studi",
+            "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }
+        ]
+      },
+      "akreditasi": {
+        "title": "Akreditasi Prodi",
+        "content": {
+          "akreditasi": "Baik",
+          "suratAkreditasi": {
+            "isi": "No. SK Akreditasi : No. XXX/SK/BAN-PT/2023",
+            "link": "https://google.com"
+          },
+          "expiredSurat": "15 Oktober 2028"
+        }
+      },
+      "tenaga-pengajar": {
+        "title": "Tenaga Pengajar",
+        "content": [
+          {
+            "slug": "ahmad-syahputra",
+            "nama": "Dr. Ahmad Syahputra, M.T",
+            "img": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "nip": "197503152000031002",
+            "jabatan": "Lektor Kepala",
+            "pendidikan": [
+              "S3 Teknik Fisika, Institut Teknologi Bandung (2015)",
+              "S2 Teknik Fisika, Institut Teknologi Sepuluh Nopember (2008)",
+              "S1 Teknik Fisika, Institut Teknologi Bandung (2003)"
+            ],
+            "bidangKeahlian": [
+              "Instrumentasi",
+              "Sistem Kendali",
+              "Energi Terbarukan",
+              "Fisika Terapan"
+            ]
+          }
+        ]
+      },
+      "kurikulum": {
+        "title": "Kurikulum",
+        "content": [
+          {
+            "semester": 1,
+            "mataKuliah": [
+              {
+                "kode": "TF101",
+                "nama": "Fisika Dasar I",
+                "sks": 4,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TF102",
+                "nama": "Kalkulus I",
+                "sks": 3,
+                "kategori": "Wajib"
+              }
+            ]
+          }
+        ]
+      },
+      "fasilitas-prodi": {
+        "title": "Fasilitas Prodi",
+        "content": "Program Studi Teknik Fisika dilengkapi dengan laboratorium fisika modern, laboratorium instrumentasi, dan laboratorium energi terbarukan."
+      },
+      "layanan-prodi": {
+        "title": "Layanan Prodi",
+        "content": {
+          "nama": "Nurul Husna, S.Si",
+          "jabatan": "Staf Administrasi Prodi",
+          "foto": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+          "kontak": {
+            "telepon": "+62 xxx-xxxx-xxxx",
+            "email": "teknikfisika@example.com",
+            "website": "www.teknikfisika.example.com"
+          },
+          "jamKerja": {
+            "hari": "Senin - Jumat",
+            "pagi": "08.00 - 12.30",
+            "siang": "14.00 - 16.30"
+          }
+        }
+      },
+      "prospek-alumni": {
+        "title": "Prospek Alumni",
+        "content": "Lulusan Teknik Fisika memiliki prospek karir yang luas di berbagai industri, termasuk energi, instrumentasi, dan penelitian teknologi."
+      }
+    }
+  },
+  "teknik-lingkungan": {
+    "title": "Teknik Lingkungan",
+    "description": "Program Studi Teknik Lingkungan fokus pada pengembangan solusi teknologi untuk mengatasi masalah lingkungan.",
+    "sections": {
+      "sejarah": {
+        "title": "Sejarah",
+        "content": "Program Studi Teknik Lingkungan didirikan sebagai respons terhadap kebutuhan akan ahli lingkungan yang mampu mengatasi masalah pencemaran dan pengelolaan lingkungan."
+      },
+      "visi-dan-misi": {
+        "title": "Visi dan Misi",
+        "content": {
+          "visi": "\"Menjadi pusat unggulan dalam pengembangan teknologi lingkungan yang berkelanjutan dan berwawasan islami\"",
+          "misi": [
+            {
+              "judul": "Pendidikan Lingkungan",
+              "isi": "Menyelenggarakan pendidikan teknik lingkungan yang berkualitas."
+            },
+            {
+              "judul": "Penelitian Lingkungan",
+              "isi": "Melakukan penelitian dalam bidang teknologi lingkungan."
+            }
+          ],
+          "tujuan": [
+            {
+              "judul": "Kompetensi Lulusan",
+              "isi": "Menghasilkan lulusan yang kompeten dalam bidang teknik lingkungan."
+            }
+          ]
+        }
+      },
+      "personil": {
+        "title": "Personil",
+        "content": [
+          {
+            "nama": "Dr. Siti Aminah, M.T",
+            "nip": "198003152005012001",
+            "pangkat": "Ketua Program Studi",
+            "img": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }
+        ]
+      },
+      "akreditasi": {
+        "title": "Akreditasi Prodi",
+        "content": {
+          "akreditasi": "Baik Sekali",
+          "suratAkreditasi": {
+            "isi": "No. SK Akreditasi : No. XXX/SK/BAN-PT/2023",
+            "link": "https://google.com"
+          },
+          "expiredSurat": "15 Oktober 2028"
+        }
+      },
+      "tenaga-pengajar": {
+        "title": "Tenaga Pengajar",
+        "content": [
+          {
+            "slug": "siti-aminah",
+            "nama": "Dr. Siti Aminah, M.T",
+            "img": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "nip": "198003152005012001",
+            "jabatan": "Lektor Kepala",
+            "pendidikan": [
+              "S3 Teknik Lingkungan, Institut Teknologi Bandung (2015)",
+              "S2 Teknik Lingkungan, Universitas Indonesia (2008)"
+            ],
+            "bidangKeahlian": [
+              "Pengelolaan Air",
+              "Pengelolaan Limbah",
+              "Teknologi Lingkungan"
+            ]
+          }
+        ]
+      },
+      "kurikulum": {
+        "title": "Kurikulum",
+        "content": [
+          {
+            "semester": 1,
+            "mataKuliah": [
+              {
+                "kode": "TL101",
+                "nama": "Pengantar Teknik Lingkungan",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TL102",
+                "nama": "Kimia Lingkungan",
+                "sks": 4,
+                "kategori": "Wajib"
+              }
+            ]
+          }
+        ]
+      },
+      "fasilitas-prodi": {
+        "title": "Fasilitas Prodi",
+        "content": "Program Studi Teknik Lingkungan dilengkapi dengan laboratorium lingkungan, laboratorium air, dan laboratorium udara."
+      },
+      "layanan-prodi": {
+        "title": "Layanan Prodi",
+        "content": {
+          "nama": "Maya Safitri, S.Si",
+          "jabatan": "Staf Administrasi Prodi",
+          "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+          "kontak": {
+            "telepon": "+62 xxx-xxxx-xxxx",
+            "email": "tekniklingkungan@example.com",
+            "website": "www.tekniklingkungan.example.com"
+          },
+          "jamKerja": {
+            "hari": "Senin - Jumat",
+            "pagi": "08.00 - 12.30",
+            "siang": "14.00 - 16.30"
+          }
+        }
+      },
+      "prospek-alumni": {
+        "title": "Prospek Alumni",
+        "content": "Lulusan Teknik Lingkungan dapat berkarir di berbagai sektor seperti konsultan lingkungan, industri, dan lembaga pemerintah."
+      }
+    }
+  },
+  "arsitektur": {
+    "title": "Arsitektur",
+    "description": "Program Studi Arsitektur fokus pada pengembangan desain arsitektur yang berkelanjutan dan memadukan nilai-nilai keislaman dalam perancangan.",
+    "sections": {
+      "sejarah": {
+        "title": "Sejarah",
+        "content": "Program Studi Arsitektur didirikan untuk menghasilkan arsitek profesional yang mampu merancang bangunan dengan mempertimbangkan aspek lingkungan, sosial, dan nilai-nilai keislaman."
+      },
+      "visi-dan-misi": {
+        "title": "Visi dan Misi",
+        "content": {
+          "visi": "\"Menjadi pusat unggulan dalam pengembangan arsitektur berkelanjutan yang terintegrasi dengan nilai-nilai keislaman\"",
+          "misi": [
+            {
+              "judul": "Pendidikan Arsitektur Berkualitas",
+              "isi": "Menyelenggarakan pendidikan arsitektur yang berkualitas dan terintegrasi dengan nilai-nilai keislaman."
+            },
+            {
+              "judul": "Penelitian Inovatif",
+              "isi": "Melakukan penelitian inovatif dalam bidang arsitektur dan perancangan berkelanjutan."
+            }
+          ],
+          "tujuan": [
+            {
+              "judul": "Kompetensi Lulusan",
+              "isi": "Menghasilkan arsitek profesional yang kompeten dan beretika."
+            },
+            {
+              "judul": "Inovasi Desain",
+              "isi": "Menghasilkan inovasi desain arsitektur yang berkelanjutan."
+            }
+          ]
+        }
+      },
+      "personil": {
+        "title": "Personil",
+        "content": [
+          {
+            "nama": "Dr. Ir. Rahmat Hidayat, M.Ars",
+            "nip": "197603152000031003",
+            "pangkat": "Ketua Program Studi",
+            "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          }
+        ]
+      },
+      "akreditasi": {
+        "title": "Akreditasi Prodi",
+        "content": {
+          "akreditasi": "Baik Sekali",
+          "suratAkreditasi": {
+            "isi": "No. SK Akreditasi : No. XXX/SK/BAN-PT/2023",
+            "link": "https://google.com"
+          },
+          "expiredSurat": "15 Oktober 2028"
+        }
+      },
+      "tenaga-pengajar": {
+        "title": "Tenaga Pengajar",
+        "content": [
+          {
+            "slug": "rahmat-hidayat",
+            "nama": "Dr. Ir. Rahmat Hidayat, M.Ars",
+            "img": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+            "nip": "197603152000031003",
+            "jabatan": "Lektor Kepala",
+            "pendidikan": [
+              "S3 Arsitektur, Universitas Indonesia (2015)",
+              "S2 Arsitektur, Institut Teknologi Bandung (2008)",
+              "S1 Arsitektur, Institut Teknologi Bandung (2003)"
+            ],
+            "bidangKeahlian": [
+              "Arsitektur Berkelanjutan",
+              "Desain Perkotaan",
+              "Arsitektur Islami",
+              "Teknologi Bangunan"
+            ],
+            "penelitian": [
+              {
+                "judul": "Integrasi Nilai Islami dalam Arsitektur Modern",
+                "tahun": "2023"
+              },
+              {
+                "judul": "Pengembangan Desain Berkelanjutan untuk Bangunan Tropis",
+                "tahun": "2022"
+              }
+            ],
+            "publikasi": [
+              {
+                "judul": "Islamic Values in Modern Architectural Design",
+                "tahun": "2023",
+                "jurnal": "Journal of Islamic Architecture"
+              },
+              {
+                "judul": "Sustainable Design Principles for Tropical Buildings",
+                "tahun": "2022",
+                "jurnal": "International Journal of Architecture"
+              }
+            ]
+          }
+        ]
+      },
+      "kurikulum": {
+        "title": "Kurikulum",
+        "content": [
+          {
+            "semester": 1,
+            "mataKuliah": [
+              {
+                "kode": "TL101",
+                "nama": "Pengantar Teknik Lingkungan",
+                "sks": 3,
+                "kategori": "Wajib"
+              },
+              {
+                "kode": "TL102",
+                "nama": "Kimia Lingkungan",
+                "sks": 4,
+                "kategori": "Wajib"
+              }
+            ]
+          }
+        ]
+      },
+      "fasilitas-prodi": {
+        "title": "Fasilitas Prodi",
+        "content": "Program Studi Teknik Lingkungan dilengkapi dengan laboratorium lingkungan, laboratorium air, dan laboratorium udara."
+      },
+      "layanan-prodi": {
+        "title": "Layanan Prodi",
+        "content": {
+          "nama": "Maya Safitri, S.Si",
+          "jabatan": "Staf Administrasi Prodi",
+          "foto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+          "kontak": {
+            "telepon": "+62 xxx-xxxx-xxxx",
+            "email": "tekniklingkungan@example.com",
+            "website": "www.tekniklingkungan.example.com"
+          },
+          "jamKerja": {
+            "hari": "Senin - Jumat",
+            "pagi": "08.00 - 12.30",
+            "siang": "14.00 - 16.30"
+          }
+        }
+      },
+      "prospek-alumni": {
+        "title": "Prospek Alumni",
+        "content": "Lulusan Teknik Lingkungan dapat berkarir di berbagai sektor seperti konsultan lingkungan, industri, dan lembaga pemerintah."
+      }
+    }
+  }
+}

@@ -24,11 +24,22 @@ const Navbar = () => {
   const scrollPosition = useScrollPosition();
   const isScrolled = scrollPosition > 0;
 
+  // Handle body scroll lock when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMobileMenuOpen]);
+
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
   };
 
-  // Add a base background color that's always present
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-teal-600 ${
       isScrolled 
@@ -162,8 +173,10 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-teal-500">
+        <div className={`lg:hidden fixed inset-0 bg-gradient-to-r from-teal-600 to-teal-700 bg-opacity-100 backdrop-blur-sm transition-all duration-300 ${
+          isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        }`} style={{ top: '64px' }}>
+          <div className="h-full overflow-y-auto py-4 px-6">
             <MobileMenuLink to="/" onClick={closeMobileMenu}>Home</MobileMenuLink>
             <div className="relative">
               <button className="w-full text-left py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
@@ -257,7 +270,7 @@ const Navbar = () => {
             <MobileMenuLink to="/riset" onClick={closeMobileMenu}>Riset</MobileMenuLink>
             <MobileMenuLink to="/info" onClick={closeMobileMenu}>Info</MobileMenuLink>
           </div>
-        )}
+        </div>
       </div>
     </nav>
   );
