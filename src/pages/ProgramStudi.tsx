@@ -14,7 +14,9 @@ import Akreditasi from "../components/programstudi/Akreditasi";
 import Personil from "../components/programstudi/Personil";
 import TenagaPengajar from "../components/programstudi/TenagaPengajar";
 import Kurikulum from "../components/programstudi/Kurikulum";
+import LayananProdi from "../components/programstudi/LayananProdi";
 import DosenDetail from "../components/programstudi/DosenDetail";
+import ProspekAlumni from "../components/programstudi/ProspekAlumni";
 import { ProgramData } from "../utils";
 
 // Program data
@@ -308,8 +310,22 @@ const programData: ProgramData = {
         content: "Informasi fasilitas program studi...",
       },
       "layanan-prodi": {
-        title: "Lulusan Prodi",
-        content: "Informasi lulusan program studi...",
+        title: "Layanan Prodi",
+        content: {
+          nama: "Cut Ida Rahmatiana, S.Si",
+          jabatan: "Staf Administrasi Prodi",
+          foto: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+          kontak: {
+            telepon: "+62 xxx-xxxx-xxxx",
+            email: "example@email.com",
+            website: "www.example.com"
+          },
+          jamKerja: {
+            hari: "Senin - Jumat",
+            pagi: "08.00 - 12.30",
+            siang: "14.00 - 16.30"
+          }
+        },
       },
       "prospek-alumni": {
         title: "Prospek Alumni",
@@ -403,6 +419,10 @@ const ProgramStudi = () => {
                   <TenagaPengajar data={program.sections[activeSection]} />
                 ) : activeSection === "kurikulum" ? (
                   <Kurikulum data={program.sections[activeSection]} />
+                ) : activeSection === "layanan-prodi" ? (
+                  <LayananProdi data={program.sections[activeSection]} />
+                ) : activeSection === "prospek-alumni" ? (
+                  <ProspekAlumni />
                 ) : (
                   <p className="text-gray-600 leading-relaxed">
                     {program.sections[activeSection].content}
