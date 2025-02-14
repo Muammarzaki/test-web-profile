@@ -1,36 +1,55 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, GraduationCap } from 'lucide-react';
+import { useScrollPosition } from '../hooks/useScrollPosition';
+
+interface MobileMenuLinkProps {
+  to: string;
+  onClick: () => void;
+  children: React.ReactNode;
+}
+
+const MobileMenuLink = ({ to, onClick, children }: MobileMenuLinkProps) => (
+  <Link
+    to={to}
+    onClick={onClick}
+    className="block py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white"
+  >
+    {children}
+  </Link>
+);
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const scrollPosition = useScrollPosition();
+  const isScrolled = scrollPosition > 0;
 
-  // Handle scroll event
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
+  // Add a base background color that's always present
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-teal-600 ${
       isScrolled 
-        ? 'bg-teal-600/95 backdrop-blur-sm shadow-lg' 
-        : 'bg-gradient-to-r from-teal-600 to-teal-700'
+        ? 'bg-opacity-90 backdrop-blur-md shadow-lg' 
+        : 'bg-gradient-to-r from-teal-600 to-teal-700 bg-opacity-100 shadow-none'
     }`}>
       <div className="container mx-auto px-6">
-        <div className="flex justify-between items-center h-20">
+        <div className={`flex justify-between items-center transition-all duration-300 ${
+          isScrolled ? 'h-16' : 'h-20'
+        }`}>
           {/* Logo and Title */}
           <Link to="/" className="flex items-center space-x-4">
-            <div className="bg-white p-2 rounded-lg shadow-md">
+            <div className={`bg-white rounded-lg shadow-md transition-all duration-300 ${
+              isScrolled ? 'p-1.5' : 'p-2'
+            }`}>
               <GraduationCap className="w-8 h-8 text-teal-600" />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-bold tracking-tight text-white">FST</span>
+              <span className={`font-bold tracking-tight text-white transition-all duration-300 ${
+                isScrolled ? 'text-lg' : 'text-xl'
+              }`}>FST</span>
               <span className="text-sm text-teal-100">UIN Ar-Raniry</span>
             </div>
           </Link>
@@ -145,24 +164,38 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="lg:hidden py-4 border-t border-teal-500">
-            <Link to="/" className="block py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
-              Home
-            </Link>
+            <MobileMenuLink to="/" onClick={closeMobileMenu}>Home</MobileMenuLink>
             <div className="relative">
               <button className="w-full text-left py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
                 Profile
               </button>
               <div className="pl-8 space-y-2">
-                <Link to="/sejarah" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/sejarah" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Sejarah
                 </Link>
-                <Link to="/visi-misi" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/visi-misi" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Visi dan Misi
                 </Link>
-                <Link to="/dekanat" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/dekanat" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Dekanat
                 </Link>
-                <Link to="/struktur-organisasi" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/struktur-organisasi" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Struktur Organisasi
                 </Link>
               </div>
@@ -174,39 +207,55 @@ const Navbar = () => {
                 Program Studi
               </button>
               <div className="pl-8 space-y-2">
-                <Link to="/program-studi/teknologi-informasi" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/program-studi/teknologi-informasi" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Teknologi Informasi
                 </Link>
-                <Link to="/program-studi/teknik-fisika" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/program-studi/teknik-fisika" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Teknik Fisika
                 </Link>
-                <Link to="/program-studi/teknik-lingkungan" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/program-studi/teknik-lingkungan" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Teknik Lingkungan
                 </Link>
-                <Link to="/program-studi/arsitektur" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/program-studi/arsitektur" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Arsitektur
                 </Link>
-                <Link to="/program-studi/kimia" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/program-studi/kimia" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Kimia
                 </Link>
-                <Link to="/program-studi/biologi" className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100">
+                <Link 
+                  to="/program-studi/biologi" 
+                  onClick={closeMobileMenu}
+                  className="block py-2 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-teal-100"
+                >
                   Biologi
                 </Link>
               </div>
             </div>
 
-            <Link to="/mutu" className="block py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
-              Mutu
-            </Link>
-            <Link to="/mahasiswa" className="block py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
-              Mahasiswa
-            </Link>
-            <Link to="/riset" className="block py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
-              Riset
-            </Link>
-            <Link to="/info" className="block py-3 px-4 hover:bg-teal-500 rounded-md transition-colors duration-200 text-white">
-              Info
-            </Link>
+            <MobileMenuLink to="/mutu" onClick={closeMobileMenu}>Mutu</MobileMenuLink>
+            <MobileMenuLink to="/mahasiswa" onClick={closeMobileMenu}>Mahasiswa</MobileMenuLink>
+            <MobileMenuLink to="/riset" onClick={closeMobileMenu}>Riset</MobileMenuLink>
+            <MobileMenuLink to="/info" onClick={closeMobileMenu}>Info</MobileMenuLink>
           </div>
         )}
       </div>
